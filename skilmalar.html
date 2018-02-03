@@ -1,0 +1,40 @@
+<html>
+<head>
+<link rel="icon" href="http://www.zreddx.net/EDU/book.png">
+<title>Skilm&aacute;lar</title>
+<meta charset="utf-8"/>
+<script>
+ function disableSubmit() {
+  document.getElementById("submit").disabled = true;
+ }
+
+  function activateButton(element) {
+
+      if(element.checked) {
+        document.getElementById("submit").disabled = false;
+       }
+       else  {
+        document.getElementById("submit").disabled = true;
+      }
+
+  }
+</script>
+</head>
+<center>
+<h1>Skilm&aacute;lar</h1>
+1. &Ouml;ll notkun &aacute; kerfinu er <b>EINNOKU&ETH;</b> fyrir nemendur &iacute; 8.L Laugal&aelig;kjask&oacute;la. Kerfi&eth; gagnast engum &ouml;&eth;rum &iacute; fyrra lagi.
+<br>
+2. &nbsp;Kerfi&eth; er <b>EING&Ouml;NGU</b> til a&eth; sko&eth;a gl&oacute;sur og verkefnabl&ouml;&eth; (yfirleitt &iacute; vi&eth;hengi &aacute; menntor annars vegar), vinsamlegast haldi&eth; &ouml;llu &ouml;&eth;ru &uacute;t &uacute;r kerfinu.
+<br>
+3. Sem eigendur kerfissins &aacute;skiljum vi&eth; okkur r&eacute;tt til a&eth; ey&eth;a, breyta og b&aelig;ta skr&aacute;r &iacute; kerfinu eftir a&eth; &thorn;eim hefur veri&eth; hla&eth;i&eth; upp. Vi&eth; &aacute;skiljum okkur einnig r&eacute;tt til a&eth; banna notendur fr&aacute; kerfinu ef &thorn;ess gerist kr&ouml;f.
+<p>
+Vinsamlegast vir&eth;i&eth; &thorn;essa skilm&aacute;la ef &thorn;i&eth; vilji&eth; halda &aacute;fram notkun &aacute; kerfinu.
+<br>
+<p>
+<body onload="disableSubmit()">
+ <input type="checkbox" name="terms" id="terms" onchange="activateButton(this)">  &Eacute;g sam&thorn;ykki &thorn;essa skilm&aacute;la (Gildir a&eth;eins einu sinni &iacute; senn.)
+<br><br>
+  <input type="Button" name="submit" id="submit" value="Sam&thorn;ykkja" onclick="location='index.html';">
+  </center>
+</body>
+</html>
